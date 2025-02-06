@@ -5,10 +5,10 @@ import {
   TouchableOpacity,
   StyleSheet,
 } from "react-native";
-import { useRouter } from "expo-router"; // Hook para manejar la navegación
+import { useRouter } from "expo-router"; 
 
 export default function SelectBikeScreen() {
-  const router = useRouter(); // Inicializa el enrutador de Expo Router
+  const router = useRouter();
   const [selectedBike, setSelectedBike] = useState(null);
 
   const handleBikeSelection = (bikeColor) => {
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.3,
     shadowRadius: 4,
-    elevation: 5, // Sombra en Android
+    elevation: 5,
   },
   selectedButton: {
     backgroundColor: "#FF5722", // Botón seleccionado
