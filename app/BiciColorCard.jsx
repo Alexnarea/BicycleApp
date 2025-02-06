@@ -74,7 +74,7 @@ export default function SelectBikeScreen() {
         onPress={handleSubmit}
         disabled={!selectedBike} // Deshabilita el botón si no se selecciona ninguna bicicleta
       >
-        <Text style={styles.submitText}>Submit</Text>
+        <Text style={styles.submitText}>Seleccionada </Text>
       </TouchableOpacity>
     </View>
   );

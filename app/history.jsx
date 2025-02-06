@@ -3,15 +3,15 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 export default function HistoryScreen() {
   const history = [
-    { date: "Thu 17, 10:40am", time: "0:10:44", distance: 7.45 },
-    { date: "Mon 16, 07:03am", time: "0:15:44", distance: 6.05 },
-    { date: "Sun 15, 09:45am", time: "0:06:44", distance: 1.5 },
+    { date: "Lunes 16, 07:03am", time: "0:15:44", distance: 6.05 },
+    { date: "Martes 17, 10:40am", time: "0:10:44", distance: 7.45 },
+    { date: "Domingo 15, 09:45am", time: "0:06:44", distance: 1.5 },
   ];
 
   return (
     <View style={styles.container}>
       {/* Título */}
-      <Text style={styles.header}>May 2018 (03 Runs)</Text>
+      <Text style={styles.header}>May 2025</Text>
       <View style={styles.summary}>
         <Text style={styles.summaryItem}>15 km</Text>
         <Text style={styles.summaryItem}>02:50:51</Text>

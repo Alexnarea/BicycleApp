@@ -66,16 +66,17 @@ export default function EventsScreen() {
           {batteryLevel !== null ? `${batteryLevel.toFixed(0)}% 🔋` : "Cargando... 🔄"}
         </Text>
       </View>
+    
+      <Text style={styles.statLabel}>Nivel de Carga</Text>
 
       {/* Estadísticas */}
       <Text style={styles.statValue}>{stats.time.toFixed(2)}</Text>
-      <Text style={styles.statLabel}>Duración</Text>
+      <Text style={styles.statLabel}>Tiempo</Text>
 
       <Text style={styles.statValue}>{stats.distance.toFixed(2)}</Text>
       <Text style={styles.statLabel}>Distancia (km)</Text>
 
-      <Text style={styles.statValue}>{stats.calories.toFixed(2)}</Text>
-      <Text style={styles.statLabel}>Calorías</Text>
+    
 
       {/* Botón de Inicio */}
       <TouchableOpacity style={styles.startButton} onPress={handleStart}>
